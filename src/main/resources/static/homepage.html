@@ -10,13 +10,13 @@
         <div>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <img src="./img/PGA logo.png"    class="logo">
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="collapse navbar-collapse" id="hpnavbarNavAltMarkup">
                         <div class="navbar-nav">
                             <a class="nav-item nav-link active" href="/"><b>Home</b></a>
                         </div>
                     </div>
                     <div class="dropdown dropdownAlignment">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="hpdropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                               Login / Signup 
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -27,17 +27,11 @@
                           </div>
             </nav>
             </div>
-        <!-- <div class="image" id="container main_background"> 
-                <img src="./img/homepage.png" class="rounded" alt="...">
-                <div id="main_background_tint"></div>
-                <div class="text-center" id="banner">
-                    <h1><span>Worrying..Let's just park!!</span> </h1>
-                </div>
-        </div> -->
-        <div id="container main_background">
-                <img id="image" src="./img/homepage.png" alt="..." />
-                <div id="main_background_tint"></div>
-                <h1 class="text-center" id="banner"><span>Stop Worrying..Let's just park!!</span> </h1>
+
+        <div id="container hpmain_background">
+                <img id="hpimage" src="./img/homepage.png" alt="..." />
+                <div id="hpmain_background_tint"></div>
+                <h1 class="text-center" id="hpbanner"><span>Stop Worrying..Let's just park!!</span> </h1>
               </div>
         <style>
                 #container {
@@ -50,7 +44,7 @@
                     left: 0;
                     top: 0;
                 }
-                #dropdownMenuButton{
+                #hpdropdownMenuButton{
                     background-color: #3F88C5;
                     color:#ffffff;
 
@@ -59,7 +53,7 @@
                     width: 75px;
                     height:60px;
                 }
-                #banner{
+                #hpbanner{
                     z-index: 100;
                     position: absolute;
                     color:#ffffff;
@@ -68,7 +62,7 @@
                     left: 370px;
                     top: 350px;
                 }
-                #main_background{
+                #hpmain_background{
                     position: absolute;
                     top: 3.5rem;
                     left: 0rem;
@@ -76,12 +70,12 @@
                     height: calc(100% - 3.5rem);
                     background-color: #ffffff;
                 }
-                #main_background img {
+                #hpmain_background img {
                     width: 100%;
                     height: 100%;
                 }
                 
-                #main_background_tint{
+                #hpmain_background_tint{
                     position: absolute;
                     top: 4rem;
                     left: 0rem;
